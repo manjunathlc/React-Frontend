@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    width: 315px;
+    height: 72px;
+    margin-top: 50px;
+    margin-left: 188px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 72px;
+}
+p{
+    width: 975px;
+    height: 72px;
+    /* margin-top: 220px; */
+    margin-left: 188px;
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+.contentArea{
+    width: 1141px;
+    height: 600px;
+    /* margin-top: 286px; */
+    margin-left: 198px;
+    gap: 81px;
+    display: flex;
+    
+}
+.formArea{
+    width: 472px;
+    height: 457px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headbtnArea{
+    width: 472px;
+    height: 105px;
+}
+.upperHead{
+    height: 44px;
+    width: 472px;
+    margin-bottom: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.lowerHead{
+    height: 44px;
+    width: 472px;
+}
+.upperHead button{
+    height: 44px;
+    width: 220px;
+    border-radius: 5px;
+    padding: 10px 18px 10px 18px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+
+}
+.lowerHead button{
+    height: 44px;
+    width: 472px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px 18px 10px 18px;
+    font-size: 16px;
+
+}
+.lowerHead button img{
+    height: 16px;
+    width: 16px;
+}
+.upperHead button img{
+    height: 16px;
+    width: 16px;
+}
+.actualformArea{
+    height: 329px;
+    width: 440px;
+    margin-top: 22px;
+    
+}
+.defineForm{
+    height: 268px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.defineForm input{
+    height: 40px;
+    position: relative;
+    border: 1px solid black;
+}
+.defineForm .label1{
+    position: absolute;
+    top: 482px;
+    left: 225px;
+    z-index: 1;
+    height: 30px;
+    width: 50px;
+    background-color: white;
+}
+.defineForm .label2{
+    position: absolute;
+    top: 550px;
+    left: 225px;
+    z-index: 1;
+    height: 30px;
+    width: 55px;
+    background-color: white;
+}
+.defineForm .label3{
+    position: absolute;
+    top: 614px;
+    left: 225px;
+    z-index: 1;
+    height: 25px;
+    width: 38px;
+    background-color: white;
+}
+.downBtnArea{
+    display: flex;
+    justify-content: end;
+}

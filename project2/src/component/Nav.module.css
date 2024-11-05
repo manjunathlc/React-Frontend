@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 72px;
+    border: 1px solid gray;
+}
+.navbar img{
+    margin-top: 4px;
+    margin-left: 91px;
+    height: 72px;
+    width: 72px;
+}

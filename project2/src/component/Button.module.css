@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    height: 44px;
+    width: 220px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.btnArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 8px;
+}
+.outlineBtn{
+    
+    height: 44px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
